@@ -1,0 +1,37 @@
+.robot_info {
+  width: 80%;
+  height: 90%;
+  margin-left: 5%;
+}
+
+#usage_info {
+  margin-top: 4%;
+  margin-left: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: 3%;
+}
+
+#usage_info td,
+#usage_info th {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#usage_info tr:nth-child(even) {
+  background-color: #f5e1df;
+}
+
+#usage_info tr:hover {
+  background-color: #ddd;
+}
+
+#usage_info th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #fddcd8;
+  color: black;
+}

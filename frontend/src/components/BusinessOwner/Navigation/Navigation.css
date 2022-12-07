@@ -1,0 +1,66 @@
+.controller_btn {
+  font-size: 14px;
+  font-weight: bold;
+  width: 20%;
+  background-color: rgba(162, 168, 165, 0.518); /* Green */
+  border: none;
+  color: rgb(29, 27, 27);
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px;
+  height: 100%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+}
+
+.controller_btn:hover {
+  background-color: #e2725a;
+  color: white;
+}
+
+table {
+  margin-left: 39%;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+.column {
+  margin-bottom: 1.5%;
+  margin-top: 1.5%;
+  margin-left: 4%;
+  float: left;
+  width: 40%;
+  padding: 0 10px;
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card {
+  margin: 10px;
+  height: 120px;
+  font-size: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}

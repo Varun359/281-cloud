@@ -1,0 +1,35 @@
+.order__table {
+  width: 80%;
+  height: 90%;
+  margin-left: 5%;
+}
+
+#orders_table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: 3%;
+}
+
+#orders_table td,
+#orders_table th {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#orders_table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#orders_table tr:hover {
+  background-color: #ddd;
+}
+
+#orders_table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #fddcd8;
+  color: black;
+}

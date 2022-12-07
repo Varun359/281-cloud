@@ -1,0 +1,21 @@
+.statistics {
+  padding: 20px;
+}
+.bar_chart {
+  width: 45%;
+  float: left;
+  padding: 20px;
+}
+
+.pie_chart {
+  width: 30%;
+}
+
+.robots__business__bar {
+  margin-left: -25%;
+}
+
+.robot__state__pie {
+  width: 80%;
+  margin-left: 5%;
+}
