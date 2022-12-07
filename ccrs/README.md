@@ -11,7 +11,7 @@
 
 This source code represents the CCRS APIs based on the initial [Project Design Doc](https://docs.google.com/document/d/18HokAyF6gMG-tvVFHfytWCVZ8AcsDRCTX8oLCbhA9Zw/edit#heading=h.o3hp68t4lrs4).
 
-- Local Testing - http://54.153.56.196:8080/ccrs/swagger-ui.html
+- Local Testing - http://54.67.115.109:8080/ccrs/swagger-ui.html
 
 ### Example Swagger Usage
 
