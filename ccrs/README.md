@@ -2,16 +2,16 @@
 
 ### Dev Setup
 
-* [Dev Env Setup Notes](https://docs.google.com/document/d/10evkyro9yRHRQ_a1Ayji9QSiZLXayW6U7X9MMvzEtZc/edit#heading=h.7ortsxgrfo4n)
-* [Webots Env Setup Notes](https://docs.google.com/document/d/1qmpgJ8LPIZMaXbo1Z7WWV8gch7lpew8rRGjm-IxS9jc/edit) and [Component Design Demo Make-Coffee Notes](https://docs.google.com/document/d/1OEdakL2tQviDd_9HqymZV4syTkGkvjcRSrAodI9yLcU/edit#heading=h.p0zgqyfa63qt)
-* [Generate Invoice Notes](https://docs.google.com/document/d/1wdUhiRIhCWBEXUt4orWSee2qKmu9C3-gtjKoX7-_jQg/edit#)
-* [Various Ubuntu/Webots/MySQL/MongoDB/Docker Notes](https://docs.google.com/document/d/15k_x43Qns8EHrBrbx7eDXl8_nCBugqnUW08QNbg_SJo/edit#heading=h.5uobbbk4yhyp)
+- [Dev Env Setup Notes](https://docs.google.com/document/d/10evkyro9yRHRQ_a1Ayji9QSiZLXayW6U7X9MMvzEtZc/edit#heading=h.7ortsxgrfo4n)
+- [Webots Env Setup Notes](https://docs.google.com/document/d/1qmpgJ8LPIZMaXbo1Z7WWV8gch7lpew8rRGjm-IxS9jc/edit) and [Component Design Demo Make-Coffee Notes](https://docs.google.com/document/d/1OEdakL2tQviDd_9HqymZV4syTkGkvjcRSrAodI9yLcU/edit#heading=h.p0zgqyfa63qt)
+- [Generate Invoice Notes](https://docs.google.com/document/d/1wdUhiRIhCWBEXUt4orWSee2qKmu9C3-gtjKoX7-_jQg/edit#)
+- [Various Ubuntu/Webots/MySQL/MongoDB/Docker Notes](https://docs.google.com/document/d/15k_x43Qns8EHrBrbx7eDXl8_nCBugqnUW08QNbg_SJo/edit#heading=h.5uobbbk4yhyp)
 
 ### Description
 
 This source code represents the CCRS APIs based on the initial [Project Design Doc](https://docs.google.com/document/d/18HokAyF6gMG-tvVFHfytWCVZ8AcsDRCTX8oLCbhA9Zw/edit#heading=h.o3hp68t4lrs4).
 
-* Local Testing - http://localhost:8080/ccrs/swagger-ui.html
+- Local Testing - http://54.153.56.196:8080/ccrs/swagger-ui.html
 
 ### Example Swagger Usage
 
@@ -31,6 +31,7 @@ This source code represents the CCRS APIs based on the initial [Project Design D
   "username": "foobar"
 }
 ```
+
 such as shown below, then click `Execute`.
 
 ![Create Admin User](images/swagger-create-admin-user.png)
@@ -65,6 +66,7 @@ Note that the response contains:
   "type": "Basic"
 }
 ```
+
 In particular, it specifies the `token`, which is the JWT token that represents the authentication session with its associated role privilege embedded. This can be used to access APIs that a require specific role to proceed.
 
 4. Call an API endpoint that requires Admin role privileges. For example, select `account-controller`, expand `/account/all` to list all available accounts, click on `Try it out` then `Execute`. This should result in a similar response to the following:
